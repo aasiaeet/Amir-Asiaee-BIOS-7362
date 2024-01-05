@@ -1,0 +1,8 @@
+{
+  "paths" : {
+      "raw"     : "C:/database/project_name/raw",
+      "clean"   : "C:/database/project_name/clean",
+      "results"   : "../results",
+      "scratch" : "C:/database/project_name/scratch"
+	 }
+}

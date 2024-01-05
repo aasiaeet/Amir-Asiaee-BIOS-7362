@@ -1,0 +1,40 @@
+---
+title: "Data Exploration"
+author: "Amir Asiaee"
+date: '`r format(Sys.Date(), "%d %B, %Y")`' # Formats the date
+output: 
+  html_document:
+    toc: true # Adds a table of contents
+    toc_float: true # Floats the table of contents
+    toc_depth: 2 # Sets depth of headers to include in TOC
+    number_sections: true # Numbers the sections
+    highlight: kate # Syntax highlighting style
+    theme: yeti # Bootswatch theme
+    fig_width: 10 # Width of figures in inches
+    fig_height: 6 # Height of figures in inches
+    css: styles.css # Link to an external CSS file
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Conclusion
+
+
+# Getting Started
+Setting up I/O:
+```{r paths}
+rm(list = ls())
+source("00-paths.R")
+paths
+```
+
+# Appendix
+
+This analysis was performed using the following R packages.
+```{r si}
+sessionInfo()
+
+```

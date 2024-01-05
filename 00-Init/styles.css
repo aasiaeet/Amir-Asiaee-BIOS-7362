@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #31708f; /* Adjust the color to match the yeti theme */
+  }
+  
+  b, strong {
+    color: #d9534f; /* Bootstrap's `btn-danger` color */
+  }
+  
+  i, em {
+    color: #5bc0de; /* Bootstrap's `btn-info` color */
+  }
+  
+  .defn {
+    color: #5cb85c; /* Bootstrap's `btn-success` color */
+  }
+  
+  .para {
+    color: #f0ad4e; /* Bootstrap's `btn-warning` color */
+    font-weight: bold;
+  }
+  
+  .figure {
+    text-align: center;
+  }
+  
+  .caption {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Additional styles for figures to ensure they are full-width */
+  .figure img {
+    max-width: 100%;
+    height: auto;
+  }
+  
