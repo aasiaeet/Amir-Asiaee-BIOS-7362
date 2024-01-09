@@ -1,8 +1,8 @@
 {
   "paths" : {
-      "raw"     : "C:/database/bios-7364-sp24/raw",
-      "clean"   : "C:/database/bios-7364-sp24/clean",
+      "raw"     : "C:/database/bios7362Sp24/raw",
+      "clean"   : "C:/database/bios7362Sp24/clean",
       "results"   : "../results",
-      "scratch" : "C:/database/bios-7364-sp24/scratch"
+      "scratch" : "C:/database/bios7362Sp24/scratch"
 	 }
 }

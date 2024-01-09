@@ -12,7 +12,7 @@ output:
     theme: yeti # Bootswatch theme
     fig_width: 10 # Width of figures in inches
     fig_height: 6 # Height of figures in inches
-    css: styles.css # Link to an external CSS file
+    css: ../styles.css # Link to an external CSS file
 ---
 
 
@@ -27,8 +27,15 @@ knitr::opts_chunk$set(echo = TRUE)
 Setting up I/O:
 ```{r paths}
 rm(list = ls())
-source("00-paths.R")
+source("../paths.R")
 paths
+```
+
+Now you can do I/O easily in any operating system like this:
+
+```{r , warning = FALSE}
+test_csv <- read.csv(file.path(paths$raw, '00-Init.csv'))
+test_csv
 ```
 
 # Appendix
@@ -36,5 +43,4 @@ paths
 This analysis was performed using the following R packages.
 ```{r si}
 sessionInfo()
-
 ```
